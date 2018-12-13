@@ -1,0 +1,6 @@
+﻿  NomePlayer.cpp
+c:\users\thico\desktop\trabalho gb\trabalhogb\libunicornio-master\projetos\jogo mini tride\nomeplayer.cpp(31): warning C4018: '<': incompatibilidade de signed/unsigned
+c:\users\thico\desktop\trabalho gb\trabalhogb\libunicornio-master\projetos\jogo mini tride\nomeplayer.cpp(100): warning C4244: '+=': conversão de 'float' para 'Sint16', possível perda de dados
+c:\users\thico\desktop\trabalho gb\trabalhogb\libunicornio-master\projetos\jogo mini tride\nomeplayer.cpp(103): warning C4244: '+=': conversão de 'float' para 'Sint16', possível perda de dados
+c:\users\thico\desktop\trabalho gb\trabalhogb\libunicornio-master\projetos\jogo mini tride\nomeplayer.cpp(114): warning C4244: '+=': conversão de 'float' para 'int', possível perda de dados
+  base.vcxproj -> C:\Users\thico\Desktop\trabalho gb\trabalhoGB\libUnicornio-master\projetos\jogo mini tride\bin\base-debug.exe

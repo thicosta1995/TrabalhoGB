@@ -1,0 +1,12 @@
+{ "columns":8,
+ "image":"tileset_campo.png",
+ "imageheight":320,
+ "imagewidth":256,
+ "margin":0,
+ "name":"tileset_campo",
+ "spacing":0,
+ "tilecount":80,
+ "tileheight":32,
+ "tilewidth":32,
+ "type":"tileset"
+}
