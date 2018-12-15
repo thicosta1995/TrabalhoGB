@@ -1,6 +1,21 @@
 ﻿  NomePlayer.cpp
-c:\users\thico\desktop\trabalho gb\trabalhogb\libunicornio-master\projetos\jogo mini tride\nomeplayer.cpp(31): warning C4018: '<': incompatibilidade de signed/unsigned
-c:\users\thico\desktop\trabalho gb\trabalhogb\libunicornio-master\projetos\jogo mini tride\nomeplayer.cpp(100): warning C4244: '+=': conversão de 'float' para 'Sint16', possível perda de dados
-c:\users\thico\desktop\trabalho gb\trabalhogb\libunicornio-master\projetos\jogo mini tride\nomeplayer.cpp(103): warning C4244: '+=': conversão de 'float' para 'Sint16', possível perda de dados
-c:\users\thico\desktop\trabalho gb\trabalhogb\libunicornio-master\projetos\jogo mini tride\nomeplayer.cpp(114): warning C4244: '+=': conversão de 'float' para 'int', possível perda de dados
-  base.vcxproj -> C:\Users\thico\Desktop\trabalho gb\trabalhoGB\libUnicornio-master\projetos\jogo mini tride\bin\base-debug.exe
+c:\users\thico\documents\trabalhogb\trabalho gb\trabalhogb\trabalhogb\libunicornio-master\projetos\jogo mini tride\nomeplayer.cpp(31): warning C4018: '<': incompatibilidade de signed/unsigned
+c:\users\thico\documents\trabalhogb\trabalho gb\trabalhogb\trabalhogb\libunicornio-master\projetos\jogo mini tride\nomeplayer.cpp(100): warning C4244: '+=': conversão de 'float' para 'Sint16', possível perda de dados
+c:\users\thico\documents\trabalhogb\trabalho gb\trabalhogb\trabalhogb\libunicornio-master\projetos\jogo mini tride\nomeplayer.cpp(103): warning C4244: '+=': conversão de 'float' para 'Sint16', possível perda de dados
+c:\users\thico\documents\trabalhogb\trabalho gb\trabalhogb\trabalhogb\libunicornio-master\projetos\jogo mini tride\nomeplayer.cpp(114): warning C4244: '+=': conversão de 'float' para 'int', possível perda de dados
+  Gerando Código...
+  Compilando...
+  main.cpp
+  Jogo.cpp
+c:\users\thico\documents\trabalhogb\trabalho gb\trabalhogb\trabalhogb\libunicornio-master\projetos\jogo mini tride\jogo.cpp(281): warning C4390: ';': instrução controlada vazia encontrada; é esta a intenção?
+c:\users\thico\documents\trabalhogb\trabalho gb\trabalhogb\trabalhogb\libunicornio-master\projetos\jogo mini tride\jogo.cpp(285): warning C4390: ';': instrução controlada vazia encontrada; é esta a intenção?
+c:\users\thico\documents\trabalhogb\trabalho gb\trabalhogb\trabalhogb\libunicornio-master\projetos\jogo mini tride\jogo.cpp(395): warning C4390: ';': instrução controlada vazia encontrada; é esta a intenção?
+c:\users\thico\documents\trabalhogb\trabalho gb\trabalhogb\trabalhogb\libunicornio-master\projetos\jogo mini tride\jogo.cpp(399): warning C4390: ';': instrução controlada vazia encontrada; é esta a intenção?
+c:\users\thico\documents\trabalhogb\trabalho gb\trabalhogb\trabalhogb\libunicornio-master\projetos\jogo mini tride\jogo.cpp(517): warning C4390: ';': instrução controlada vazia encontrada; é esta a intenção?
+c:\users\thico\documents\trabalhogb\trabalho gb\trabalhogb\trabalhogb\libunicornio-master\projetos\jogo mini tride\jogo.cpp(637): warning C4390: ';': instrução controlada vazia encontrada; é esta a intenção?
+c:\users\thico\documents\trabalhogb\trabalho gb\trabalhogb\trabalhogb\libunicornio-master\projetos\jogo mini tride\jogo.cpp(641): warning C4390: ';': instrução controlada vazia encontrada; é esta a intenção?
+c:\users\thico\documents\trabalhogb\trabalho gb\trabalhogb\trabalhogb\libunicornio-master\projetos\jogo mini tride\jogo.cpp(736): warning C4244: 'argumento': conversão de 'int' para 'float', possível perda de dados
+c:\users\thico\documents\trabalhogb\trabalho gb\trabalhogb\trabalhogb\libunicornio-master\projetos\jogo mini tride\jogo.cpp(745): warning C4244: 'argumento': conversão de 'int' para 'float', possível perda de dados
+c:\users\thico\documents\trabalhogb\trabalho gb\trabalhogb\trabalhogb\libunicornio-master\projetos\jogo mini tride\jogo.cpp(749): warning C4244: 'argumento': conversão de 'int' para 'float', possível perda de dados
+  Gerando Código...
+  base.vcxproj -> C:\Users\thico\Documents\TrabalhoGB\trabalho gb\trabalhoGB\TrabalhoGB\libUnicornio-master\projetos\jogo mini tride\bin\base-debug.exe

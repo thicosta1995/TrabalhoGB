@@ -246,7 +246,7 @@ bool NomePlayer::cadastro1(std::ostream& os)
 	
 		
 	/* os.write(cadastro.nomeP.c_str(), cadastro.nomeP.size());*/
-		os.write(reinterpret_cast<char*>(&cadastro.nomeP), sizeof(Cadastro));
+		os.write(reinterpret_cast<char*>(&cadastro), sizeof(Cadastro));
 		
 	}
 	else
@@ -286,6 +286,7 @@ bool NomePlayer::carregar(std::istream & is)
 		
 			while (!is.eof())
 			{
+				Cadastro * nCadastro = new Cadastro;
 				
 				is.read(reinterpret_cast<char*>(&cadastro), sizeof(Cadastro));
 
@@ -298,78 +299,17 @@ bool NomePlayer::carregar(std::istream & is)
 				{
 					
 				}*/
-				for (int i = 0; i <2; i++)
-				{
-
-					is >> cadastro.nomeP; /*>>cadastro.contador*/
+				
+				
 
 					
 				
-					vec.push_back(Cadastro());
-					vec[i].nomeP = cadastro.nomeP;
+					vec.push_back(nCadastro);
+					vec[i]->nomeP = cadastro.nomeP;
 					/*vec[i].contador = cadastro.contador;
 					*/
 					
-				}
-				vector<Cadastro>::iterator listaNome;
-				for (listaNome = vec.begin(); listaNome != vec.end(); ++listaNome)
-				{
-					
-						vec[numero].nomeP;
-						/*vec[numero].contador;*/
-						listaNome->nomeP;
-						
-					/*	listaNome->contador;*/
-
-						if (vec[numero].nomeP == nomeJogador)
-						{
-							nomeEncontrado = true;
-						}
-						else
-						{
-							tentaiva();
-						}
-						//if (vec[numero].nomeP != nomeJogador)
-						//{
-						//	
-						//	this->escrever.open("save.dat", ios::binary | ios::app);
-						//	this->cadastro1(this->escrever);
-						//	this->escrever.close();
-						//	break;
-						//}
-					
-						//else
-						//{
-						//	gDebug.depurar("teste", nomeJogador);
-						//	this->escrever.open("save.dat", ios::binary | ios::app);
-						//	this->cadastro1(this->escrever);
-						//	this->escrever.close();
-						//	break;
-						//}
-						numero++;
-					
-				}
-				int total = numero;
-				if (getTentativa() == total)
-				{
-					criarArquivo();
-					/*this->escrever.open("save.dat", ios::binary | ios::app);
-					this->cadastro1(this->escrever);
-					this->escrever.close();*/
-
-				}
-			/*	for (int i = numero; i > 0; --numero)
-				{
-					if(vec[numero].nomeP ==nomeJogador)   
-					{
-						nomeEncontrado = true;
-					}
-					else
-					{
-						tentativas++;
-					}*/
-					
-			/*	}*/
+				
 				
 			
 
@@ -381,7 +321,59 @@ bool NomePlayer::carregar(std::istream & is)
 			
 
 				
-			
+					i++;
+			}
+			vector<Cadastro*>::iterator listaNome;
+			for (listaNome = vec.begin(); listaNome != vec.end(); ++listaNome)
+			{
+
+				vec[numero]->nomeP;
+				/*vec[numero].contador;*/
+				/*listaNome->nomeP;*/
+
+			/*	listaNome->contador;*/
+
+				if (vec[numero]->nomeP == nomeJogador)
+				{
+					nomeEncontrado = true;
+					n = numero;
+				}
+				else
+				{
+					tentaiva();
+				}
+				//if (vec[numero].nomeP != nomeJogador)
+				//{
+				//	
+				//	this->escrever.open("save.dat", ios::binary | ios::app);
+				//	this->cadastro1(this->escrever);
+				//	this->escrever.close();
+				//	break;
+				//}
+
+				//else
+				//{
+				//	gDebug.depurar("teste", nomeJogador);
+				//	this->escrever.open("save.dat", ios::binary | ios::app);
+				//	this->cadastro1(this->escrever);
+				//	this->escrever.close();
+				//	break;
+				//}
+				numero++;
+
+			}
+			int total = numero;
+			if (getTentativa() == total)
+			{
+				criarArquivo();
+				/*this->escrever.open("save.dat", ios::binary | ios::app);
+				this->cadastro1(this->escrever);
+				this->escrever.close();*/
+
+			}
+			if (nomeEncontrado == true)
+			{
+				gDebug.depurar("Nome", vec[n]->nomeP);
 			}
 
 			
@@ -419,7 +411,7 @@ void NomePlayer::verficarNome(std::fstream & arquivoNome)
 
 bool NomePlayer::retornouNome()
 {
-	return true;;
+	return true;
 }
 
 void NomePlayer::tentaiva()

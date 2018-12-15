@@ -24,7 +24,7 @@ public:
 	void tentaiva();
 	int getTentativa();
 	void criarArquivo();
-	std::vector<Cadastro> vec;
+	std::vector<Cadastro*> vec;
 	int primeiroContador = 0;
 	/*Cadastro *cadastros = new Cadastro;*/
 	Texto txt;
@@ -35,6 +35,7 @@ public:
 	std::string nomeJogador;
 	bool nomeEncontrado;
 	int i = 0;
+	int n;
 	int tentativas =0;
 	Cadastro cadastro;
 	string armazenador;
